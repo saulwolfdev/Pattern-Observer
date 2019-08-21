@@ -1,7 +1,7 @@
 
  import style from "../main.css"
 
- class Productos{
+ export class Productos{
     constructor(){
         this.productos=["Manzanas","Peras","Bananas"]
         this.subcriptores=[]
@@ -22,7 +22,7 @@
 
 
 
- class Vista{
+ export class Vista{
 	constructor(){
 			productos.agregarSubcriptores(this.render)
 	}
